@@ -1,0 +1,33 @@
+.Dimmer {
+	width: 100%;
+	height: 1000%;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+}
+
+.ContactData {
+	margin: 20px auto;
+	width: 80%;
+	text-align: center;
+	/* box-shadow: 0 2px 30x #ccc; */
+	/* border: 1px solid #eee; */
+	background: #c20d00;
+	/* border: 1px solid #ddd; */
+	padding: 1rem;
+	position: absolute;
+}
+
+.Title {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 1.8rem;
+	color: #fffffe;
+	margin-bottom: 1.3rem;
+	text-align: left;
+}
+
+.Buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

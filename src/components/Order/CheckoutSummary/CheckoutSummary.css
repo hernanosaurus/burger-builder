@@ -1,0 +1,37 @@
+.CheckoutSummary {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.Wrapper {
+	width: 100%;
+	bottom: 0px;
+	padding: 0.5rem;
+
+	background: #c20d00;
+	position: absolute;
+}
+
+.Title {
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Poppins';
+	color: #fffffe;
+	padding: 0 1rem;
+}
+
+.Buttons {
+	background: #c20d00;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

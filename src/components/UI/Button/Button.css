@@ -1,0 +1,105 @@
+.Button {
+	background-color: transparent;
+	border: none;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font: inherit;
+	margin: 1rem 0;
+}
+
+.SignIn {
+	font-family: 'Montserrat';
+	background: #ffd803;
+	letter-spacing: 0.1rem;
+	border: 1px solid #ffd803;
+	width: 100%;
+	border-radius: 20px;
+	color: #272343;
+	font-weight: 900;
+	padding: 0.5rem 0.5rem;
+	text-transform: uppercase;
+}
+
+.SignUp {
+	font-family: 'Open Sans';
+	font-weight: 900;
+	color: #272343;
+	position: relative;
+	font-size: 0.8rem;
+	padding: 0.25rem 0.5rem;
+	margin: 0.25rem 0 !important;
+	text-decoration: underline;
+}
+
+.Success {
+	font-family: 'Montserrat';
+	background: #ffce00;
+	width: 124px;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+	border: 1px solid #ffce00;
+	border-radius: 20px;
+	color: #272343;
+	font-weight: 900;
+	padding: 0.5rem;
+	text-transform: uppercase;
+}
+
+.Danger {
+	font-family: 'Montserrat';
+	background: #fffffe;
+	width: 124px;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+	border: 2px solid #c20d00;
+	border-radius: 20px;
+	color: #c20d00;
+	font-weight: 900;
+	padding: 0.5rem;
+	text-transform: uppercase;
+}
+
+.SuccessLrg {
+	width: 150px;
+	background: #ffce00;
+
+	font-family: 'Montserrat';
+	font-size: 1rem;
+	font-weight: 900;
+	color: #232323;
+	letter-spacing: 0.1rem;
+
+	border: 3px solid #ffce00;
+	border-radius: 20px;
+
+	padding: 0.5rem;
+	margin: 0.25rem 0;
+
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.DangerLrg {
+	width: 150px;
+
+	font-family: 'Montserrat';
+	font-weight: 900;
+	font-size: 1rem;
+	color: #fffffe;
+	letter-spacing: 0.1rem;
+
+	border: 3px solid #fffffe;
+	border-radius: 20px;
+
+	padding: 0.5rem;
+	margin: 0.25rem 0;
+
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.Button:disabled {
+	color: #ccc;
+	cursor: not-allowed;
+}

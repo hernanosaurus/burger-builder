@@ -1,0 +1,67 @@
+.Title {
+	font-size: 1.8rem;
+	font-weight: 400;
+	font-family: 'Poppins';
+	color: #fffffe;
+	margin-bottom: 1rem;
+}
+
+.Description {
+	font-family: 'Poppins';
+	color: #fffffe;
+	margin-bottom: 0.5rem;
+}
+
+.IngredientSummary {
+	list-style: none;
+	font-family: 'Montserrat';
+	margin: 1rem 0;
+}
+
+.List {
+	font-family: 'Montserrat';
+	text-transform: capitalize;
+	font-size: 0.8rem;
+	padding: 0.25rem 0.4rem;
+	width: 90px;
+	background-color: #ffce00;
+	color: #000;
+	margin: 0.25rem 0.25rem 0.25rem 0;
+	text-align: center;
+	display: inline-block;
+}
+
+.Total {
+	width: 50%;
+
+	font-family: 'Montserrat';
+	font-size: 0.8rem;
+	color: #000;
+	text-transform: uppercase;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	margin-bottom: 2.5rem;
+	padding: 0.3rem;
+
+	background: #ffce00;
+}
+
+.Price {
+	font-size: 1.5rem;
+	color: #000;
+}
+
+.Checkout {
+	font-family: 'Poppins';
+	color: #fffffe;
+	margin-bottom: 1rem;
+}
+
+.Buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

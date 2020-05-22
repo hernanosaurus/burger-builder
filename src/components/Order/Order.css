@@ -1,0 +1,70 @@
+.Order {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Poppins';
+
+	width: 98%;
+	font-size: 0.8rem;
+	padding: 1rem 1rem;
+	margin-top: 0.1rem;
+	box-sizing: border-box;
+	background: #fffffe;
+	border: 1px solid #c20d00;
+}
+
+.Right {
+	padding: 0.5rem;
+	width: 65%;
+}
+
+.OrderItems {
+	font-family: 'Montserrat';
+	font-size: 0.8rem;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 0.25rem 0.4rem;
+	width: 90px;
+	background-color: #c20d00;
+	color: #fffffe;
+	margin: 0.25rem 0.25rem 0.25rem 0;
+	display: inline-block;
+}
+
+.Label {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	color: #000;
+	margin-bottom: 0.5rem;
+}
+
+h1 {
+	font-size: 1.2rem;
+}
+
+.Total {
+	width: 35%;
+
+	font-family: 'Poppins';
+	font-size: 0.8rem;
+	text-align: left;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+
+	padding: 0.3rem;
+
+	background: #c20d00;
+	color: #fffffe;
+}
+
+.Price {
+	font-family: 'Montserrat';
+	font-size: 1.4rem;
+	font-weight: 900;
+	color: #ffce00;
+}

@@ -1,0 +1,84 @@
+.Input {
+	width: 100%;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+	margin: 1rem 0;
+}
+
+.InputElements {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #ccc;
+	color: #000;
+}
+
+input::placeholder {
+	/* Firefox, Chrome, Opera */
+	color: #707070;
+}
+
+input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #707070;
+}
+
+input::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #707070;
+}
+
+input {
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1rem;
+	color: #000;
+	background: #fffffe;
+	font-family: 'Poppins';
+}
+
+.Label {
+	display: block;
+	font-weight: 900;
+	margin-bottom: 8px;
+	font-family: 'Poppins';
+	text-align: left;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	display: none;
+}
+
+.ValidationHint {
+	text-align: left;
+	display: block;
+	color: #000;
+	font-size: 1.1rem;
+	padding: 0.6rem;
+	margin-left: 0.6rem;
+	text-transform: capitalize;
+	width: 20%;
+	background: #fffffe;
+}
+
+.ValidationError {
+	text-align: left;
+	display: block;
+	color: red;
+	font-size: 1.1rem;
+	padding: 0.6rem;
+	margin-left: 0.6rem;
+	text-transform: capitalize;
+	width: 20%;
+	background: #fffffe;
+}
+
+.ValidationPassed {
+	text-align: left;
+	display: block;
+	color: #5c9210;
+	font-size: 1.1rem;
+	padding: 0.6rem;
+	margin-left: 0.6rem;
+	text-transform: capitalize;
+	width: 20%;
+	background: #fffffe;
+}

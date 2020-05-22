@@ -1,0 +1,76 @@
+.content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.dimmer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff3e0;
+	z-index: 999;
+
+	display: none;
+	padding: 0 12px;
+}
+
+.text {
+	color: #0f0e17;
+	text-transform: uppercase;
+
+	font-size: 32px;
+
+	max-width: 400px;
+	line-height: 1.5;
+
+	margin: 0 auto;
+	text-align: center;
+
+	font-family: 'Montserrat';
+	margin-bottom: 24px;
+}
+
+.dimmer i {
+	color: #0f0e17;
+	font-size: 96px;
+}
+
+.fullWrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mobileWrapper {
+	margin: 0 auto;
+	width: 388px;
+	height: 850px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('../../assets/Images/mobile.png');
+}
+
+.CenterWrapper {
+	width: 362px;
+	height: 756px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	background-color: #fff3e0;
+}
+
+@media (max-width: 600px) {
+	.dimmer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,22 @@
+.Wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: all 0.3s ease-out;
+	z-index: 500;
+}
+
+.Modal {
+	padding: 1rem;
+	width: 80%;
+
+	background-color: #c20d00;
+	box-sizing: border-box;
+}
